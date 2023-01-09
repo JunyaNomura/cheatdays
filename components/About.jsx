@@ -16,7 +16,7 @@ const About = () => {
       name: 'Junya Nomura', 
       title: 'CTO', 
       role: 'Web・ブロックチェーンエンジニア / フォトグラファー', 
-      text: '一橋大学法学研究科中退。シンガポール南洋理工大学MBA修了。',
+      text: '一橋大学大学院法学研究科中退。シンガポール南洋理工大学MBA修了。',
       imgUrl: img6    
     }
   ];
