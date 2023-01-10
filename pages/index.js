@@ -14,8 +14,8 @@ import FOG from 'vanta/dist/vanta.fog.min';
 import * as THREE from 'three';
 
 export default function Home() {
-  // const [vantaEffect, setVantaEffect] = useState(0);
-  // const vantaRef = useRef(null);
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const vantaRef = useRef(null);
   // useEffect(() => {
   //   if (!vantaEffect) {
   //     setVantaEffect(
@@ -47,7 +47,7 @@ export default function Home() {
       <div>
         <div id="web-gl"></div>
         <div 
-          // ref={vantaRef}
+          ref={vantaRef}
         >
           <main className="text-center max-w-4xl mx-auto px-4">
             <Hero />
