@@ -47,7 +47,7 @@ export default function Home() {
       <div>
         <div id="web-gl"></div>
         <div ref={vantaRef}>
-          <main className="text-center max-w-4xl mx-auto px-4 font-main">
+          <main className="text-center max-w-4xl mx-auto px-4">
             <Hero />
             <Introduction />
             <Service />
