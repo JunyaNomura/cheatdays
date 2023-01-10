@@ -35,15 +35,15 @@ const About = () => {
             <Image 
               src={member.imgUrl}
               alt="image"
-              className="flex-shrink-0 object-cover h-64 rounded-tr-[32px] sm:h-96 dark:bg-gray-500 aspect-square"
+              className="flex-shrink-0 object-cover h-64 rounded-tr-[32px] sm:h-96 aspect-square"
               width={384}
               height={384}
               priority={false}
             />
             <div>
               <h2 className="mt-4 text-xl font-semibold text-slate-600">{member.name}</h2>
-              <span className="block pb-2 text-sm dark:text-gray-400">{member.title}</span>
-              <span className="block pb-2 text-sm dark:text-gray-400">{member.role}</span>
+              <span className="block pb-2 text-sm">{member.title}</span>
+              <span className="block pb-2 text-s">{member.role}</span>
               <p className="tracking-tighter">{member.text}</p>
             </div>
           </div>
