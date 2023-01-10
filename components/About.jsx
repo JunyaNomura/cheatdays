@@ -36,8 +36,9 @@ const About = () => {
               src={member.imgUrl}
               alt="image"
               className="flex-shrink-0 object-cover h-64 rounded-tr-[32px] sm:h-96 dark:bg-gray-500 aspect-square"
-              // width={384}
-              // height={384}
+              width={384}
+              height={384}
+              priority={false}
             />
             <div>
               <h2 className="mt-4 text-xl font-semibold text-slate-600">{member.name}</h2>
