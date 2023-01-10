@@ -9,9 +9,9 @@ import Introduction from '../components/Introduction'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Footer from '../components/Footer'
 
-// import { useEffect, useRef, useState } from 'react'
-// import FOG from 'vanta/dist/vanta.fog.min';
-// import * as THREE from 'three';
+import { useEffect, useRef, useState } from 'react'
+import FOG from 'vanta/dist/vanta.fog.min';
+import * as THREE from 'three';
 
 export default function Home() {
   // const [vantaEffect, setVantaEffect] = useState(0);
