@@ -31,7 +31,7 @@ const About = () => {
       </p>
       <div className="grid md:grid-cols-2 gap-2">
         {members.map((member) => (
-          <div className="flex flex-col max-w-md p-6 dark:bg-gray-900 dark:text-gray-100" key={member.name}>
+          <div className="flex flex-col max-w-md p-6" key={member.name}>
             <Image 
               src={member.imgUrl}
               alt="image"
