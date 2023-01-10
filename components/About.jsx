@@ -22,7 +22,7 @@ const About = () => {
   ];
   return (
     <section className="mb-32">
-      <h2 className="text-3xl font-bold mt-8 mb-4">Who We Are</h2>
+      <h2 className="text-3xl font-bold mt-8 mb-4 text-pink-400 drop-shadow-sm">Who We Are</h2>
       <p className="text-sm md:text-lg mt-8 tracking-wide">
         私たちはテクノロジーとエンターテインメントを組み合わせることで、<br />
         ユーザーに全く新しい体験をもたらすことを目指しているチームです。<br />
@@ -40,7 +40,7 @@ const About = () => {
               height={384}
             />
             <div>
-              <h2 className="mt-4 text-xl font-semibold">{member.name}</h2>
+              <h2 className="mt-4 text-xl font-semibold text-slate-600">{member.name}</h2>
               <span className="block pb-2 text-sm dark:text-gray-400">{member.title}</span>
               <span className="block pb-2 text-sm dark:text-gray-400">{member.role}</span>
               <p className="tracking-tighter">{member.text}</p>

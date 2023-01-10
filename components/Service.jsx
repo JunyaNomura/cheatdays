@@ -12,14 +12,14 @@ const Service = () => {
 
   return (
     <section className="mb-32">
-      <h2 className="text-3xl font-bold mt-8 mb-4">Our Services</h2>
+      <h2 className="text-3xl font-bold mt-8 mb-4 text-pink-400 drop-shadow-sm">Our Services</h2>
       <p className="text-sm md:text-lg mt-8 tracking-wide">
         Webを中心に写真・動画・3Dなど、幅広く担当することでワンストップなサービスを実現します。<br />
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mt-8">
         {features.map((feature) => (
         <div className="p-2" key={feature.name}>
-          <h3 className="font-bold text-lg py-2">{feature.name}</h3>
+          <h3 className="font-bold text-lg py-2 text-slate-600">{feature.name}</h3>
           <p className="font-light text-sm md:text-base lg:text-lg py-2">{feature.text}</p>
         </div>
         ))}

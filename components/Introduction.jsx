@@ -4,7 +4,7 @@ const Introduction = () => {
 
   return (
     <section className="mb-32">
-      <h2 className="text-3xl font-bold mt-8 mb-4">Introduction</h2>
+      <h2 className="text-3xl font-bold mt-8 mb-4 text-pink-400 drop-shadow-sm">Introduction</h2>
       <p className="text-sm md:text-lg mt-8 tracking-wide">
         Webサイト、LP、SNS、ECなど、<br />
         Web戦略って何からやって良いのかわからない。<br />

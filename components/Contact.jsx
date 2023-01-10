@@ -19,7 +19,7 @@ const Contact = () => {
     await fetch('api/contact', {
       method: 'POST',
       headers: {
-        Accept: 'application/json text/plain',
+        Accept: 'application/json, text/plain',
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(data),
@@ -33,7 +33,7 @@ const Contact = () => {
 
   return (
     <section className="mb-32">
-      <h2 className="text-3xl font-bold mt-8 mb-4">Contact</h2>
+      <h2 className="text-3xl font-bold mt-8 mb-4 text-pink-400 drop-shadow-sm">Contact</h2>
       <p className="text-sm md:text-lg mt-8 tracking-wide">
         Web制作や動画撮影の他にも何かお手伝いできることがあれば、気軽にお問い合わせください。
       </p>
@@ -76,7 +76,7 @@ const Contact = () => {
             ref={messageRef} 
           />
         </div>
-        <button type="submit" className="btn btn-primary">メール送信</button>
+        <button type="submit" className="text-white py-2 px-4 rounded-full bg-pink-400 hover:bg-pink-300 transition duration-300">メール送信</button>
       </form>
     </section>
   )
