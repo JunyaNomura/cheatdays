@@ -17,21 +17,21 @@ export default function Home() {
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
   useEffect(() => {
-  //   if (!vantaEffect) {
-  //     setVantaEffect(
-  //       FOG({
-  //         el: vantaRef.current,
-  //         THREE,
-  //         mouseControls: true,
-  //         touchControls: true,
-  //         gyroControls: false,
-  //         minHeight: 200.00,
-  //         minWidth: 200.00,
-  //         blurFactor: 0.15,
-  //         speed: 0.48
-  //       })
-  //     )
-  //   }
+    if (!vantaEffect) {
+      setVantaEffect(
+        FOG({
+          el: vantaRef.current,
+          THREE,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          blurFactor: 0.15,
+          speed: 0.48
+        })
+      )
+    }
     return () => {
       if (vantaEffect) {
         vantaEffect.destroy();
