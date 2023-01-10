@@ -16,7 +16,7 @@ import * as THREE from 'three';
 export default function Home() {
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
-  // useEffect(() => {
+  useEffect(() => {
   //   if (!vantaEffect) {
   //     setVantaEffect(
   //       FOG({
@@ -32,10 +32,12 @@ export default function Home() {
   //       })
   //     )
   //   }
-  //   return () => {
-  //     if (vantaEffect) vantaEffect.destroy();
-  //   }
-  // }, [vantaEffect]);
+    return () => {
+      if (vantaEffect) {
+        vantaEffect.destroy();
+      }
+    }
+  }, [vantaEffect]);
   return (
     <>
       <Head>
