@@ -9,7 +9,7 @@ const Hero = () => {
       <section className="mb-32">
         <h3 className="text-md md:text-xl font-semibold text-white drop-shadow-sm">
           Cheat Days（チートデイズ）は最先端技術を駆使して、<br />
-          Web体験をプロデュースするチームです。
+          リッチなWeb体験をプロデュースするチームです。
         </h3>
         <p className="text-sm md:text-lg mt-12 mb-32 tracking-wide text-gray-800">
           Web。そこは顧客と商品が出会い、関係を構築していく場所。<br />
