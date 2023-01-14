@@ -28,7 +28,7 @@ export default function Home() {
           minHeight: 200.00,
           minWidth: 200.00,
           blurFactor: 0.15,
-          speed: 0.48
+          speed: 0.8
         })
       )
     }

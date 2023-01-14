@@ -1,22 +1,23 @@
 import Image from 'next/image';
 import img1 from '../public/img1.jpg';
 import img6 from '../public/img6.jpg';
+import profileImg from '../public/IMG_6402.jpeg';
 
 
 const About = () => {
   const members = [
     {
-      name: 'Seki Asuka', 
+      name: 'Asuka Seki', 
       title: '代表', 
       role: 'フロントエンドエンジニア / フォトグラファー', 
-      text: '人物を中心に写真や動画制作を行う。',
-      imgUrl: img1,
+      text: '人物ポートレートや街撮りスナップを中心に活動。',
+      imgUrl: profileImg,
     },
     {
       name: 'Junya Nomura', 
       title: 'CTO', 
-      role: 'Web・ブロックチェーンエンジニア / フォトグラファー', 
-      text: '一橋大学大学院法学研究科中退。シンガポール南洋理工大学MBA修了。',
+      role: 'Web・ブロックチェーンエンジニア / ビデオグラファー', 
+      text: '漫画編集者・アニメプロデューサーを経てエンジニアに転身。一橋大学大学院法学研究科中退。シンガポール南洋理工大学MBA修了。',
       imgUrl: img6    
     }
   ];
@@ -35,7 +36,7 @@ const About = () => {
             <Image 
               src={member.imgUrl}
               alt="image"
-              className="flex-shrink-0 object-cover h-64 rounded-tr-[32px] sm:h-96 aspect-square"
+              className="flex-shrink-0 object-cover h-64 rounded-[32px] drop-shadow-lg sm:h-96 aspect-square"
               width={384}
               height={384}
               priority={false}

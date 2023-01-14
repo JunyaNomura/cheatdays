@@ -35,7 +35,7 @@ const Contact = () => {
     <section className="mb-32">
       <h2 className="text-3xl font-bold mt-8 mb-4 text-pink-400 drop-shadow-sm">Contact</h2>
       <p className="text-sm md:text-lg mt-8 tracking-wide">
-        Web制作や動画撮影の他にも何かお手伝いできることがあれば、気軽にお問い合わせください。
+        Web制作・Webアプリ開発や動画撮影など気軽にお問い合わせください。
       </p>
       <form onSubmit={(e) => handleSubmit(e)}>
         <div className="mb-3">
